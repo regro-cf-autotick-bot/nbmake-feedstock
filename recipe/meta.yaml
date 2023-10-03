@@ -1,5 +1,5 @@
 {% set name = "nbmake" %}
-{% set version = "1.4.3" %}
+{% set version = "1.4.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nbmake-{{ version }}.tar.gz
-  sha256: 9afc46ba05cc22f5a78047a758dca32386c95eaaa41501b25ce108cf733d9622
+  sha256: ec310c431eba8e38065f90806fca4dab2de17ef40e8160e4ca29c812618dfaf4
 
 build:
   number: 0
